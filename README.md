@@ -2,6 +2,7 @@
 
 _scoop configuration for my Windows PC_
 
+![GlazeWM](GlazeWM.png)
 
 ## Install scoop
 
