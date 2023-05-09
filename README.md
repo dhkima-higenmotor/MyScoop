@@ -84,15 +84,11 @@ cp ./config/git-prompt.sh C:/Users/dhkima/scoop/apps/git/current/etc/profile.d/g
 
 ## alacritty
 
-* config
-
 ```
 cp ./config/alacritty-cmd.yml %userprofile%\scoop\persist\alacritty\alacritty-cmd.yml
 ```
 
 ## GlazeWM
-
-* config
 
 ```
 mkdir %userprofile%\.glaze-wm
