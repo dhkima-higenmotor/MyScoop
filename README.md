@@ -48,6 +48,7 @@ scoop install paraview
 scoop install octave
 scoop install gimp
 scoop install inkscape
+scoop install keypirinha
 
 scoop install librecad
 scoop install freecad
@@ -78,10 +79,7 @@ echo '. ${HOME}/.bash_profile' >> ~/.bashrc
 - conda prompt one line
 
 ```bash
-code ~/scoop/apps/git/current/etc/profile.d/git-prompt.sh
-
-# Commenting out newline lines in prompt display related contents
-#PS1="$PS1"'\n'                 # new line
+cp ./config/git-prompt.sh C:/Users/dhkima/scoop/apps/git/current/etc/profile.d/git-prompt.sh
 ```
 
 ## alacritty
@@ -101,7 +99,23 @@ mkdir %userprofile%\.glaze-wm
 cp ./config/config.yaml %userprofile%\.glaze-wm\config.yaml
 ```
 
+## Keypirinha
+
+```
+cp ./config/Keypirinha.ini
+C:\Users\dhkima\scoop\apps\keypirinha\current\portable\Profile\User\Keypirinha.ini
+```
+
 ## ETC
 
 * font : [D2Coding Nerd Font](https://github.com/kelvinks/D2Coding_Nerd/raw/master/D2Coding%20v.1.3.2%20Nerd%20Font%20Complete.ttf)
+
+
+## Simply Use
+
+* `Ctrl+Win+K` : keypirinha Launcher
+* `Alt+V` : Toggle Vertical-Hirizontal Layout
+* `Alt+(Shift)+Arrow` : Move(Change) Window
+* `Alt+(Shift)+0~9` : Move(Change) Desktop
+* `Alt+Shift+Space` : Toggle Float
 
