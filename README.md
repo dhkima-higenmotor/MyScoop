@@ -114,6 +114,7 @@ C:\Users\dhkima\scoop\apps\keypirinha\current\portable\Profile\User\Keypirinha.i
 ## Simply Use
 
 * `Ctrl+Win+K` : keypirinha Launcher
+* `Alt+Enter` : Alacritty Terminal
 * `Alt+V` : Toggle Vertical-Hirizontal Layout
 * `Alt+(Shift)+Arrow` : Move(Change) Window
 * `Alt+(Shift)+0~9` : Move(Change) Desktop
