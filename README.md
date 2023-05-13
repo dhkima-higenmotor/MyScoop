@@ -31,32 +31,56 @@ scoop bucket add extras
 ## Install Packages
 
 ```powershell
+# Terminal
 scoop install sudo
 scoop install aria2
 scoop install btop
-scoop install vscode
+scoop install imagemagick
+scoop install nano
+scoop install uutils-coreutils
+scoop install ffmpeg
+scoop install alacritty
+
+# git
 scoop install git-lfs
 scoop install gh
-scoop install julia
+
+# coding
+scoop install pyenv
 scoop install miniconda3
-scoop install alacritty
-scoop install uutils-coreutils
+scoop install julia
+scoop install octave
+scoop install vscode
+
+# Window Manager
 scoop install glazewm
 scoop install keypirinha
 
-scoop install imagemagick
+# Engineering
 scoop install paraview
-scoop install octave
-scoop install gimp
-scoop install inkscape
-
-scoop install typora
-scoop install bandizip
-
 scoop install librecad
 scoop install freecad
 scoop install solvespace
-scoop install pyenv
+
+# Graphics, Movies
+scoop install gimp
+scoop install inkscape
+scoop install openshot
+scoop install obs-studio
+
+# Document
+scoop install typora
+scoop install pdfarranger
+
+# Utility
+scoop install bandizip
+scoop install multicommander
+
+## Not recommended ...
+# fork : git path problem
+# sumatrapdf : teminal opening problem
+# micro : clipboard problem
+# mupdf : window size problem in glazeWM
 ```
 
 ## git_bash
