@@ -402,7 +402,7 @@ shell:
   program: cmd.exe
   args:
     - /K
-    - C:\Users\dhkima\scoop\apps\miniconda3\current\Scripts\activate.bat
+    - '%userprofile%\scoop\apps\miniconda3\current\Scripts\activate.bat'
 
 # Startup directory
 #

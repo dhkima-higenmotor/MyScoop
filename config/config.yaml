@@ -157,7 +157,8 @@ keybindings:
 
   #- command: "exec cmd"
   #  binding: "Alt+Enter"
-  - command: exec C:\Users\dhkima\scoop\apps\alacritty\current\alacritty.exe --config-file "C:\Users\dhkima\scoop\persist\alacritty\alacritty-cmd.yml" --working-directory D:\
+  #- command: exec C:\Users\song\scoop\apps\alacritty\current\alacritty.exe --config-file "C:\Users\song\scoop\persist\alacritty\alacritty-cmd.yml" --working-directory D:\
+  - command: exec %userprofile%\scoop\apps\alacritty\current\alacritty.exe --working-directory D:\
     binding: "Alt+Enter"
  
   # Screen 1360x768_Single

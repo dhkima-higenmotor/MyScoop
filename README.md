@@ -87,7 +87,8 @@ cp config/git-prompt.sh ~/scoop/apps/git/current/etc/profile.d/git-prompt.sh
 ## alacritty
 
 ```bash
-cp config/alacritty-cmd.yml ~/scoop/persist/alacritty/alacritty-cmd.yml
+#cp config/alacritty-cmd.yml ~/scoop/persist/alacritty/alacritty-cmd.yml
+cp config/alacritty-cmd.yml $HOME/AppData/Roaming/alacritty/alacritty.yml
 ```
 
 ## GlazeWM
@@ -105,9 +106,14 @@ mkdir ~/scoop/apps/keypirinha/current/portable/Profile/User
 cp config/Keypirinha.ini ~/scoop/apps/keypirinha/current/portable/Profile/User/Keypirinha.ini
 ```
 
+## ChangeDisplayResolutionMSWIN
+
+* Ref : https://github.com/dymaxionkim/ChangeDisplayResolutionMSWIN
+* **자세한 설명은 생략한다**
+
 ## ETC
 
-* font : [D2Coding Nerd Font](https://github.com/kelvinks/D2Coding_Nerd/raw/master/D2Coding%20v.1.3.2%20Nerd%20Font%20Complete.ttf)
+* font : [D2Coding Nerd Font](https://github.com/kelvinks/D2Coding_Nerd/raw/master/D2Coding%20v.1.3.2%20Nerd%20Font%20Complete.ttf) as D2Coding
 
 
 ## Simply Use
