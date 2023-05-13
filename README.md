@@ -41,14 +41,17 @@ scoop install julia
 scoop install miniconda3
 scoop install alacritty
 scoop install uutils-coreutils
-scoop install imagemagick
 scoop install glazewm
-scoop install typora
+scoop install keypirinha
+
+scoop install imagemagick
 scoop install paraview
 scoop install octave
 scoop install gimp
 scoop install inkscape
-scoop install keypirinha
+
+scoop install typora
+scoop install bandizip
 
 scoop install librecad
 scoop install freecad
