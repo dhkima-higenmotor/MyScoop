@@ -60,10 +60,10 @@ scoop install pyenv
 
 * bashrc
 
-```
+```bash
 bash
 cd /d/github/MyScoop
-cp ./config/bash.bashrc C:\Users\dhkima\scoop\apps\git\current\etc\bash.bashrc
+cp config/bash.bashrc ~/scoop/apps/git/current/etc/bash.bashrc
 ```
 
 * conda enable
