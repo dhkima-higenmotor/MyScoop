@@ -38,6 +38,7 @@ scoop install btop
 scoop install imagemagick
 scoop install nano
 scoop install uutils-coreutils
+scoop install wget
 scoop install ffmpeg
 scoop install alacritty
 
