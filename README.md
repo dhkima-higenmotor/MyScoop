@@ -61,7 +61,9 @@ scoop install pyenv
 * bashrc
 
 ```
-cp ./config/bash.bash.bashrc C:\Users\dhkima\scoop\apps\git\current\etc\bash.bashrc
+bash
+cd /d/github/MyScoop
+cp ./config/bash.bashrc C:\Users\dhkima\scoop\apps\git\current\etc\bash.bashrc
 ```
 
 * conda enable
@@ -79,27 +81,28 @@ echo '. ${HOME}/.bash_profile' >> ~/.bashrc
 - conda prompt one line
 
 ```bash
-cp ./config/git-prompt.sh C:/Users/dhkima/scoop/apps/git/current/etc/profile.d/git-prompt.sh
+cp config/git-prompt.sh ~/scoop/apps/git/current/etc/profile.d/git-prompt.sh
 ```
 
 ## alacritty
 
-```
-cp ./config/alacritty-cmd.yml %userprofile%\scoop\persist\alacritty\alacritty-cmd.yml
+```bash
+cp config/alacritty-cmd.yml ~/scoop/persist/alacritty/alacritty-cmd.yml
 ```
 
 ## GlazeWM
 
-```
-mkdir %userprofile%\.glaze-wm
-cp ./config/config.yaml %userprofile%\.glaze-wm\config.yaml
+```bash
+mkdir ~/.glaze-wm
+cp config/config.yaml ~/.glaze-wm/config.yaml
 ```
 
 ## Keypirinha
 
-```
-cp ./config/Keypirinha.ini
-C:\Users\dhkima\scoop\apps\keypirinha\current\portable\Profile\User\Keypirinha.ini
+```bash
+mkdir ~/scoop/apps/keypirinha/current/portable/Profile
+mkdir ~/scoop/apps/keypirinha/current/portable/Profile/User
+cp config/Keypirinha.ini ~/scoop/apps/keypirinha/current/portable/Profile/User/Keypirinha.ini
 ```
 
 ## ETC
