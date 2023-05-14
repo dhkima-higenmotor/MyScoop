@@ -121,7 +121,7 @@ cp config/git-prompt.sh ~/scoop/apps/git/current/etc/profile.d/git-prompt.sh
 ## alacritty
 
 ```bash
-#cp config/alacritty-cmd.yml ~/scoop/persist/alacritty/alacritty-cmd.yml
+mkdir $HOME/AppData/Roaming/alacritty
 cp config/alacritty-cmd.yml $HOME/AppData/Roaming/alacritty/alacritty.yml
 ```
 
