@@ -84,6 +84,12 @@ scoop install multicommander
 # mupdf : window size problem in glazeWM
 ```
 
+## Depress aria2 warning
+
+```bash
+scoop config aria2-warning-enabled false
+```
+
 ## git_bash
 
 * bashrc
