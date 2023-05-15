@@ -90,6 +90,12 @@ scoop install multicommander
 scoop config aria2-warning-enabled false
 ```
 
+## Solution for 7zip update or installation error
+
+```bash
+scoop config MSIEXTRACT_USE_LESSMSI $true
+```
+
 ## git_bash
 
 * bashrc
