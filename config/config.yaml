@@ -162,14 +162,18 @@ keybindings:
  
   # Screen 1360x768_Single
   - command: exec cmd /C "cd /D D:\UTIL\ChangeDisplayResolutionMSWIN\WizardSoft && 1360x768_Single.bat"
-    binding: "Alt+Shift+I"
+    binding: "Alt+Shift+U"
 
   # Screen 1920x1080_Single
   - command: exec cmd /C "cd /D D:\UTIL\ChangeDisplayResolutionMSWIN\WizardSoft && 1920x1080_Single.bat"
-    binding: "Alt+Shift+O"
+    binding: "Alt+Shift+I"
 
   # Screen 1920x1200_Dual_Extend
   - command: exec cmd /C "cd /D D:\UTIL\ChangeDisplayResolutionMSWIN\WizardSoft && 1920x1200_Dual_Extend.bat"
+    binding: "Alt+Shift+O"
+
+  # Screen 1920x1200_Triple_Extend
+  - command: exec cmd /C "cd /D D:\UTIL\ChangeDisplayResolutionMSWIN\WizardSoft && 1920x1200_Triple_Extend.bat"
     binding: "Alt+Shift+P"
 
   # Focus the workspace that last had focus.
