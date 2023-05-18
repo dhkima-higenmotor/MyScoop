@@ -76,6 +76,7 @@ scoop install pdfarranger
 # Utility
 scoop install bandizip
 scoop install multicommander
+scoop install firefox
 
 ## Not recommended ...
 # fork : git path problem
@@ -132,6 +133,8 @@ cp config/git-prompt.sh ~/scoop/apps/git/current/etc/profile.d/git-prompt.sh
 
 ## alacritty
 
+* Alacritty is 3D accellerated terminal, so it is not work on vitualbox.
+
 ```bash
 mkdir $HOME/AppData/Roaming/alacritty
 cp config/alacritty-cmd.yml $HOME/AppData/Roaming/alacritty/alacritty.yml
@@ -157,10 +160,11 @@ cp config/Keypirinha.ini ~/scoop/apps/keypirinha/current/portable/Profile/User/K
 * Ref : https://github.com/dymaxionkim/ChangeDisplayResolutionMSWIN
 * **자세한 설명은 생략한다**
 
-## ETC
+## Fonts
 
-* font : [D2Coding Nerd Font](https://github.com/kelvinks/D2Coding_Nerd/raw/master/D2Coding%20v.1.3.2%20Nerd%20Font%20Complete.ttf) as D2Coding
-
+* [D2Coding Nerd Font](https://github.com/kelvinks/D2Coding_Nerd/raw/master/D2Coding%20v.1.3.2%20Nerd%20Font%20Complete.ttf)
+* [Noto Serif Korean](https://fonts.google.com/noto/specimen/Noto+Serif+KR?query=noto+serif+korean)
+* [Noto Sans Korean](https://fonts.google.com/noto/specimen/Noto+Sans+KR)
 
 ## Simply Use
 
