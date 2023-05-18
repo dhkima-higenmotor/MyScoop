@@ -126,16 +126,27 @@ exit
 echo '. ${HOME}/.bash_profile' >> ~/.bashrc
 ```
 
-- conda prompt one line
+* conda prompt one line
 
 ```bash
 cd /d/github/MyScoop
 cp config/git-prompt.sh ~/scoop/apps/git/current/etc/profile.d/git-prompt.sh
 ```
 
+* conda forge
+
+```bash
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+conda config --remove channels defaults
+conda config --show channels
+conda update --all
+```
+
+
 ## alacritty
 
-* Alacritty is 3D accellerated terminal, so it is not work on vitualbox.
+* Alacritty is 3D accellerated terminal, so it is not works on vitualbox.
 
 ```bash
 mkdir $HOME/AppData/Roaming/alacritty
