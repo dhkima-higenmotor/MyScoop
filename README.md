@@ -111,7 +111,10 @@ cp config/bash.bashrc ~/scoop/apps/git/current/etc/bash.bashrc
 * conda enable
 
 ```bash
+cmd
+%userprofile%\scoop\apps\miniconda3\current\Scripts\activate.bat
 conda init bash
+exit
 ```
 
 * conda prompt
@@ -123,6 +126,7 @@ echo '. ${HOME}/.bash_profile' >> ~/.bashrc
 - conda prompt one line
 
 ```bash
+cd /d/github/MyScoop
 cp config/git-prompt.sh ~/scoop/apps/git/current/etc/profile.d/git-prompt.sh
 ```
 
