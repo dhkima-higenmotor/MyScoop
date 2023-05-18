@@ -78,6 +78,7 @@ scoop install bandizip
 scoop install multicommander
 scoop install firefox
 scoop install everything
+scoop install honeyview
 
 ## Not recommended ...
 # fork : git path problem
