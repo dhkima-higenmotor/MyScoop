@@ -58,7 +58,11 @@ window_rules:
   # Task Manager requires admin privileges to manage and should be ignored unless running
   # the WM as admin.
   - command: "ignore"
-    match_process_name: "Taskmgr"
+    match_process_name: "Taskmgr" 
+
+  # Capture tool
+  - command: "ignore"
+    match_process_name: "SnippingTool"
 
   # Launches system dialogs as floating by default (eg. File Explorer save/open dialog).
   - command: "set floating"
@@ -66,7 +70,8 @@ window_rules:
 
   # Some applications (eg. Steam) have borders that extend past the normal border size.
   - command: "resize borders 0px -7px -7px -7px"
-    match_process_name: "steam"
+    match_process_name: "alacritty"
+    #match_process_name: "steam"
 
 binding_modes:
   - name: "resize"
