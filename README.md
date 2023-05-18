@@ -103,6 +103,7 @@ scoop config MSIEXTRACT_USE_LESSMSI $true
 ```bash
 bash
 cd /d/github/MyScoop
+git clone https://github.com/dymaxionkim/MyScoop.git
 cp config/bash.bashrc ~/scoop/apps/git/current/etc/bash.bashrc
 ```
 
