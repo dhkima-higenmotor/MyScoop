@@ -77,6 +77,7 @@ scoop install pdfarranger
 scoop install bandizip
 scoop install multicommander
 scoop install firefox
+scoop install everything
 
 ## Not recommended ...
 # fork : git path problem
@@ -162,9 +163,10 @@ cp config/Keypirinha.ini ~/scoop/apps/keypirinha/current/portable/Profile/User/K
 
 ## Fonts
 
-* [D2Coding Nerd Font](https://github.com/kelvinks/D2Coding_Nerd/raw/master/D2Coding%20v.1.3.2%20Nerd%20Font%20Complete.ttf)
-* [Noto Serif Korean](https://fonts.google.com/noto/specimen/Noto+Serif+KR?query=noto+serif+korean)
-* [Noto Sans Korean](https://fonts.google.com/noto/specimen/Noto+Sans+KR)
+* [D2Coding Nerd Font](https://github.com/kelvinks/D2Coding_Nerd/raw/master/D2Coding%20v.1.3.2%20Nerd%20Font%20Complete.ttf) for Coding
+* [Noto Sans Korean](https://fonts.google.com/noto/specimen/Noto+Sans+KR) for Sans Serif
+* [Noto Serif Korean](https://fonts.google.com/noto/specimen/Noto+Serif+KR?query=noto+serif+korean) for Serif
+* [Arial Unicode MS](https://github.com/dymaxionkim/CREO3_STARTUP/raw/master/font/ARIALUNI.TTF) for Blueprint drawing
 
 ## Simply Use
 
@@ -175,3 +177,9 @@ cp config/Keypirinha.ini ~/scoop/apps/keypirinha/current/portable/Profile/User/K
 * `Alt+(Shift)+0~9` : Move(Change) Desktop
 * `Alt+Shift+Space` : Toggle Float
 
+
+## Yet anothers
+
+* [git-fork](https://git-fork.com/) for git client
+* [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader) for PDF view
+* [eDrawings Viewer](https://www.edrawingsviewer.com/download-edrawings) for 2D,3D view
