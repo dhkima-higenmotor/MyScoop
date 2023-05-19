@@ -38,6 +38,7 @@ scoop install btop
 scoop install imagemagick
 scoop install nano
 scoop install uutils-coreutils
+scoop install grep
 scoop install wget
 scoop install ffmpeg
 scoop install alacritty
@@ -143,7 +144,6 @@ conda config --show channels
 conda update --all
 ```
 
-
 ## alacritty
 
 * Alacritty is 3D accellerated terminal, so it is not works on vitualbox.
@@ -166,6 +166,44 @@ cp config/config.yaml ~/.glaze-wm/config.yaml
 mkdir ~/scoop/apps/keypirinha/current/portable/Profile
 mkdir ~/scoop/apps/keypirinha/current/portable/Profile/User
 cp config/Keypirinha.ini ~/scoop/apps/keypirinha/current/portable/Profile/User/Keypirinha.ini
+```
+
+## vscode
+
+* Since the location of `settings.json` is unclear and flexible, it is better to set it directly in vscode.
+
+* Example :
+
+```bash
+        "list": 
+        [
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "%windir%\\System32\\cmd.exe \"/K\" %userprofile%\\scoop\\apps\\miniconda3\\current\\Scripts\\activate.bat %userprofile%\\scoop\\apps\\miniconda3\\current",
+                "font": 
+                {
+                    "face": "D2Coding",
+                    "size": 11.0
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44b1}",
+                "hidden": false,
+                "name": "Miniconda3 Cmd",
+                "startingDirectory": "D:\\",
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "%userprofile%\\scoop\\apps\\julia\\current\\bin\\julia.exe",
+                "font": 
+                {
+                    "face": "D2Coding",
+                    "size": 11.0
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44b4}",
+                "hidden": false,
+                "name": "Julia",
+                "startingDirectory": "D:\\",
+            }
+        ]
 ```
 
 ## ChangeDisplayResolutionMSWIN
