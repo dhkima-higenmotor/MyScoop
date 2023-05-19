@@ -73,7 +73,7 @@ scoop install obs-studio
 # Document
 scoop install typora
 scoop install pdfarranger
-scoop install libreoffice
+scoop install libreoffice vcredist2022
 
 # Utility
 scoop install bandizip
