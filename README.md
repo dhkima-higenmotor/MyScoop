@@ -8,16 +8,18 @@ _scoop configuration for my Windows PC_
 
 ### Recommended to install
 * [git-fork](https://git-fork.com/) for git client
-* [eDrawings Viewer](https://www.edrawingsviewer.com/download-edrawings) for 2D,3D view
-* []
+* [Bandizip](https://kr.bandisoft.com/bandizip/) for archives
+* [eDrawings Viewer](https://www.edrawingsviewer.com/download-edrawings) for general
+* [eDrawings Professional](https://www.edrawingsviewer.com/download-edrawings) for Solidworks users
 
 ### Recommended to uninstall
-* git, git-lfs, gh, miniconda3, julia 
-* libreoffice, bandizip, firefox, everything, vscode, honyview ...
+* before run myscoop.bat : git, git-lfs, gh, miniconda3, julia 
+* before run myscoop_extend.bat : libreoffice, firefox, everything, vscode, honyview ...
 
 ### Clone this repo:
+* Use git-fork
 * `mkdir D:\github`
-* Clone `https://github.com/dymaxionkim/MyScoop.git` using git-fork into `D:\github\MyScoop`
+* Clone `https://github.com/dymaxionkim/MyScoop.git` into `D:\github\MyScoop`
 
 
 ## Setting
@@ -33,5 +35,14 @@ myscoop.bat
 myscoop_extend.bat
 ```
 
+## Maintenance
+
+* Daily
+
+```bash
+scoop update
+scoop update --all
+conda update --all
+```
 
 

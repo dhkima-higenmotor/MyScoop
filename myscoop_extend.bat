@@ -44,15 +44,15 @@ call scoop install honeyview
 
 REM alacritty
 mkdir %userprofile%\AppData\Roaming\alacritty
-cp -f %MYSCOOP_CONFIG%\alacritty-cmd.yml %userprofile%\AppData\Roaming\alacritty\alacritty.yml
+copy %MYSCOOP_CONFIG%\alacritty-cmd.yml %userprofile%\AppData\Roaming\alacritty\alacritty.yml
 
 REM GlazeWM
 mkdir %userprofile%\.glaze-wm
-cp -f %MYSCOOP_CONFIG%\config.yaml %userprofile%\.glaze-wm\config.yaml
+copy %MYSCOOP_CONFIG%\config.yaml %userprofile%\.glaze-wm\config.yaml
 
 REM Keypirinha
 mkdir %userprofile%\scoop\apps\keypirinha\current\portable\Profile
 mkdir %userprofile%\scoop\apps\keypirinha\current\portable\Profile\User
-cp -f %MYSCOOP_CONFIG%\Keypirinha.ini %userprofile%\scoop\apps\keypirinha\current\portable\Profile\User\Keypirinha.ini
+copy %MYSCOOP_CONFIG%\Keypirinha.ini %userprofile%\scoop\apps\keypirinha\current\portable\Profile\User\Keypirinha.ini
 
 echo Finished!
