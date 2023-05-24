@@ -68,9 +68,17 @@ window_rules:
   - command: "set floating"
     match_process_name: "mupdf"
 
-  # qview
+  # SumatraPDF
   - command: "set floating"
-    match_process_name: "qview"
+    match_process_name: "SumatraPDF"
+
+  # qView
+  - command: "set floating"
+    match_process_name: "qView"
+
+  # Honeyview
+  - command: "set floating"
+    match_process_name: "Honeyview"
 
   # Launches system dialogs as floating by default (eg. File Explorer save/open dialog).
   - command: "set floating"
@@ -172,7 +180,10 @@ keybindings:
   - command: exec wt.exe
   #- command: exec %userprofile%\scoop\apps\alacritty\current\alacritty.exe --working-directory D:\
     binding: "Alt+Enter"
- 
+
+  - command: exec %userprofile%\scoop\apps\alacritty\current\alacritty.exe --working-directory D:\
+    binding: "Shift+Alt+Enter"
+
   # Screen 1360x768_Single
   - command: exec cmd /C "cd /D D:\github\ChangeDisplayResolutionMSWIN\WizardSoft && 1360x768_Single.bat"
     binding: "Alt+Shift+U"

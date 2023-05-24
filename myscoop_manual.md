@@ -130,7 +130,7 @@ exit
 * conda prompt
 
 ```bash
-echo '. ${HOME}/.bash_profile' >> ~/.bashrc
+echo '. ${HOME}/.bash_profile' > ~/.bashrc
 ```
 
 * conda prompt one line

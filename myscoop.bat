@@ -37,6 +37,7 @@ call sudo Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -
 
 REM bashrc
 copy "%MYSCOOP_CONFIG%\bash.bashrc" "%userprofile%\scoop\apps\git\current\etc\bash.bashrc"
+copy "%MYSCOOP_CONFIG%\bashrc" "%userprofile%\.bashrc"
 
 REM git
 call git config --global user.email %GH_EMAIL_LOCAL%
