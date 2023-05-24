@@ -83,7 +83,7 @@ sudo copy "%MYSCOOP_PATH%\Fonts\*.ttf" "%systemroot%\Fonts\"
 sudo copy "%MYSCOOP_PATH%\Fonts\*.TTF" "%systemroot%\Fonts\"
 
 REM Windows Terminal
-copy %MYSCOOP_CONFIG%\settings.json %LocalAppData%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+copy /y /v %MYSCOOP_CONFIG%\settings.json %LocalAppData%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
 
 echo Finished.
 exit
