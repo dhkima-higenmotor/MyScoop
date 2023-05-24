@@ -13,8 +13,8 @@ _scoop configuration for my Windows PC_
 * [eDrawings Professional](https://www.edrawingsviewer.com/download-edrawings) for Solidworks users
 
 ### Recommended to uninstall
-* before run myscoop.bat : git, git-lfs, gh, miniconda3, julia 
-* before run myscoop_extend.bat : libreoffice, firefox, everything, vscode, honyview ...
+* before run myscoop.bat : git, git-lfs, gh, miniconda3, julia, everything
+* before run myscoop_extend.bat : libreoffice, firefox, vscode, honyview ...
 
 ### Clone this repo:
 * Use git-fork

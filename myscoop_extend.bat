@@ -38,7 +38,6 @@ REM Utility
 call scoop install bandizip
 REM call scoop install multicommander
 call scoop install firefox
-call scoop install everything
 call scoop install vscode
 call scoop install honeyview
 

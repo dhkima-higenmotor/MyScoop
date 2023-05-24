@@ -84,6 +84,7 @@ scoop install bandizip
 scoop install multicommander
 scoop install firefox
 scoop install everything
+scoop install everything-cli
 scoop install honeyview
 
 ## Not recommended ...
