@@ -46,6 +46,7 @@ call git config --global core.editor "code -w"
 call git config --global push.default matching
 call git config --global credential.helper wincred
 call git config --global lfs.activitytimeout 300
+call git config --global core.quotepath false
 call git config --global lfs.https://github.com/mech-higenmotor/.locksverify true
 call git config --global init.defaultBranch main
 call gh config set editor "code -w"
