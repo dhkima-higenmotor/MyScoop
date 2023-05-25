@@ -9,8 +9,7 @@ _scoop configuration for my Windows PC_
 ### Recommended to install
 * [git-fork](https://git-fork.com/) for git client
 * [Bandizip](https://kr.bandisoft.com/bandizip/) for archives
-* [eDrawings Viewer](https://www.edrawingsviewer.com/download-edrawings) for general
-* [eDrawings Professional](https://www.edrawingsviewer.com/download-edrawings) for Solidworks users
+* [eDrawings Viewer](https://www.edrawingsviewer.com/download-edrawings) for general or [eDrawings Professional](https://www.edrawingsviewer.com/download-edrawings) for Solidworks users
 
 ### Recommended to uninstall
 * before run myscoop.bat : git, git-lfs, gh, miniconda3, julia, everything
