@@ -44,6 +44,7 @@ scoop install grep
 scoop install wget
 scoop install ffmpeg
 scoop install alacritty
+scoop install wezterm
 
 # git
 scoop install git-lfs
@@ -157,6 +158,14 @@ conda update --all
 ```bash
 mkdir $HOME/AppData/Roaming/alacritty
 cp config/alacritty-cmd.yml $HOME/AppData/Roaming/alacritty/alacritty.yml
+```
+
+## wezterm
+
+* Wezterm is 3D accellerated terminal, so it is not works on vitualbox.
+
+```bash
+cp config/_wezterm.lua $HOME/.wezterm.lua
 ```
 
 ## GlazeWM
