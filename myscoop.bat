@@ -24,7 +24,7 @@ call scoop bucket add extras
 call scoop update
 
 REM Pkgs
-call scoop install sudo aria2 imagemagick uutils-coreutils grep wget ffmpeg dark git-lfs gh miniconda3 julia qview mupdf everything everything-cli
+call scoop install sudo aria2 imagemagick uutils-coreutils grep wget ffmpeg dark git-lfs gh miniconda3 julia qview mupdf everything everything-cli lsd upx diff-pdf
 
 REM Depress aria2 warning
 call scoop config aria2-warning-enabled false

@@ -51,11 +51,12 @@ scoop install git-lfs
 scoop install gh
 
 # coding
-scoop install pyenv
+#scoop install pyenv
 scoop install miniconda3
 scoop install julia
 scoop install octave
 scoop install vscode
+scoop install upx
 
 # Window Manager
 scoop install glazewm
@@ -75,6 +76,7 @@ scoop install obs-studio
 
 # Document
 scoop install typora
+scoop install pandoc
 scoop install pdfarranger
 scoop install libreoffice
 scoop install vcredist2022

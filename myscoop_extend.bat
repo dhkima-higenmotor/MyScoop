@@ -26,6 +26,7 @@ call scoop install gimp
 call scoop install inkscape
 call scoop install openshot
 call scoop install obs-studio
+call scoop install blender
 
 REM Document
 REM call scoop install typora
@@ -40,6 +41,11 @@ REM call scoop install multicommander
 call scoop install firefox
 call scoop install vscode
 call scoop install honeyview
+call scoop install btop
+
+REM git
+REM call scoop install gittyup
+REM call scoop install gitnuro
 
 REM alacritty
 mkdir %userprofile%\AppData\Roaming\alacritty
