@@ -89,12 +89,13 @@ scoop install firefox
 scoop install everything
 scoop install everything-cli
 scoop install honeyview
+scoop install mupdf
+scoop install qview
 
 ## Not recommended ...
 # fork : git path problem
 # sumatrapdf : teminal opening problem
 # micro : clipboard problem
-# mupdf : window size problem in glazeWM
 ```
 
 ## Depress aria2 warning
@@ -116,7 +117,7 @@ scoop config MSIEXTRACT_USE_LESSMSI $true
 ```bash
 bash
 cd /d/github
-git clone https://github.com/dymaxionkim/MyScoop.git
+git clone https://github.com/dhkima-higenmotor/MyScoop.git
 cd MyScoop
 cp config/bash.bashrc ~/scoop/apps/git/current/etc/bash.bashrc
 ```
