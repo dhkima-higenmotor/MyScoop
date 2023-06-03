@@ -110,6 +110,13 @@ scoop config aria2-warning-enabled false
 scoop config MSIEXTRACT_USE_LESSMSI $true
 ```
 
+## miniconda3 error fix
+
+```bash
+conda install brotlipy
+conda update urllib3
+```
+
 ## git_bash
 
 * bashrc
