@@ -80,6 +80,14 @@ window_rules:
   - command: "set floating"
     match_process_name: "Honeyview"
 
+  # mpv
+  - command: "set floating"
+    match_process_name: "mpv"
+
+  # vlc
+  - command: "set floating"
+    match_process_name: "vlc"
+
   # Launches system dialogs as floating by default (eg. File Explorer save/open dialog).
   - command: "set floating"
     match_class_name: "#32770"
@@ -177,12 +185,14 @@ keybindings:
 
   #- command: "exec cmd"
   #  binding: "Alt+Enter"
-  - command: exec wt.exe
-  #- command: exec %userprofile%\scoop\apps\alacritty\current\alacritty.exe --working-directory D:\
+  - command: exec %userprofile%\AppData\Local\Microsoft\WindowsApps\wt.exe
     binding: "Alt+Enter"
 
   - command: exec %userprofile%\scoop\apps\alacritty\current\alacritty.exe --working-directory D:\
     binding: "Shift+Alt+Enter"
+
+  - command: exec %userprofile%\scoop\apps\wezterm\current\wezterm-gui.exe
+    binding: "Shift+Enter"
 
   # Screen 1360x768_Single
   - command: exec cmd /C "cd /D D:\github\ChangeDisplayResolutionMSWIN\WizardSoft && 1360x768_Single.bat"
