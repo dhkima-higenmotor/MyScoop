@@ -27,8 +27,14 @@ _scoop configuration for my Windows PC_
 ### Auto Setting
 
 ```cmd
-cd D:\github\MyScoop
+cd /d D:\github\MyScoop
 myscoop.bat
+
+reboot
+
+cd /d D:\github\MyScoop
+myscoop.bat
+
 myscoop_extend.bat
 ```
 
