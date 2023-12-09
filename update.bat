@@ -12,8 +12,8 @@ call conda install -y brotlipy urllib3 pandas openpyxl psutil numpy matplotlib e
 call conda update --all
 
 REM pip
-call yes | pip install pdf2pptx PyMuPDF pySW
-copy /Y D:/github/xlsx2sw\patch\commSW.py %userprofile%\scoop\apps\miniconda3\current\Lib\site-packages\pySW\commSW.py
+call yes | pip install -r pdf2pptx PyMuPDF pySW
+call copy /Y D:\github\xlsx2sw\patch\commSW.py %userprofile%\scoop\apps\miniconda3\current\Lib\site-packages\pySW\commSW.py
 
 echo Finished.
-exit
+pause
