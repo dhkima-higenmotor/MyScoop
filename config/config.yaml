@@ -26,6 +26,20 @@ bar:
   components_center:
     - type: "window title"
   components_right:
+    - type: "cpu"
+      label: "CPU:{percent_usage}%  "
+      refresh_interval_ms: 1000
+    #- type: "gpu"
+      #label: "GPU:{percent_usage}%  "
+      #refresh_interval_ms: 1000
+    - type: "memory"
+      label: "RAM:{percent_usage}%  "
+      refresh_interval_ms: 1000
+    #- type: "volume"
+      #label_low: "🔊{volume_level}%  "
+      #label_medium: "🔊{volume_level}%  "
+      #label_high: "🔊{volume_level}%  "
+      #label_mute: "🔊{volume_level}%  "
     - type: "tiling direction"
       label_horizontal: "⮂"
       label_vertical: "⮁"
